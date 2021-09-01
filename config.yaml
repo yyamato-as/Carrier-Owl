@@ -1,11 +1,23 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:astro-ph.GA OR cat:astro-ph.EP OR cat:astro-ph.SR'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
-
+        protoplanetary: 3
+        protostar: 3
+        protostellar: 3
+        prestellar: 2
+        planet-forming: 3
+        star-forming: 2
+        star formation: 2
+        planet formation: 2
+        chemistry: 2
+        observation: 1
+        ALMA: 1
+        deuterated: 2
+        interstellar: 1
+        ice: 1
+        molecule: 1
+        
 # 通知の閾値
-score_threshold: 0
+score_threshold: 1
